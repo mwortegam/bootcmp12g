@@ -2,61 +2,26 @@
 
 *{
     font-family: arial;
-    color:purple;
+    background-color: #E3F1FC;
+    color:#003545;
+    border: 1px solid #909CA9;
 }
-
-/*Selector por tagname: selecciona todos los elementos cuyo tagname sea igual al declarado*/
-header{
-    background-color:rgb(63, 205, 191);
-    padding: 15px;
-    margin-bottom: 10px;
+div{
+    border:solid 3px #123456
 }
-nav{
-    padding: 15px;
-    background-color: purple;
-    color: azure;
+header,h1{
+    background-color:#7AA998 ;
+    margin: 10px;
 }
-nav,ul,li{
-    color:white
+article,h2,p{
+    background-color: #7AA998;
 }
 article{
     padding: 15px;
-    background-color:rgb(192, 255, 211);
-    margin-bottom: 15px;
+    margin: 10px;
+    
 }
 section{
-    background-color:blue;
-    padding: 15px;
-    margin-bottom: 15px;
-    float: left;
-    width: 65%;
-    display: inline-block;
-}
-aside{
-    background-color: coral;
-    margin-bottom: 15px;
-    padding: 15px;
-    float: right;
-    width: 25%;
-}
-footer{
-    padding: 15px;
-    background-color:darkgreen;
-    margin-top: 15px;
-}
-/*Selector por clase: selecciona todos los elementos que tengan el nombre de la clase en su atributo class*/
-
-.green-button{
-    background-color:green;
-}
-
-.red-button{
-    background-color:darkred;
-}
-
-/*Selector por id: selecciona el único elemento que coincida con el id indicado*/
-
-#main-title{
-    font-weight: bold;
-    text-transform: uppercase;
+    
+    ;
 }
